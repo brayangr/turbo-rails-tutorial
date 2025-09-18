@@ -1,3 +1,5 @@
+@use "mixins/media" as *;
+
 .line-item {
   display: flex;
   align-items: start;

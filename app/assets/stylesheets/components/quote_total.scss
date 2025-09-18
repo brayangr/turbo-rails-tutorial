@@ -1,3 +1,5 @@
+@use "mixins/media" as *;
+
 .quote-total {
   position: fixed;
   bottom: 0;

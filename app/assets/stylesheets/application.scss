@@ -1,29 +1,29 @@
 // Sassy
 // Mixins
-@import "mixins/media";
+@use "mixins/media";
 
 // Configuration
-@import "config/variables";
-@import "config/reset";
-@import "config/animations";
+@use "config/variables";
+@use "config/reset";
+@use "config/animations";
 
 // Components
-@import "components/btn";
-@import "components/error_message";
-@import "components/form";
-@import "components/visually_hidden";
-@import "components/quote";
-@import "components/turbo_progress_bar";
-@import "components/navbar";
-@import "components/flash";
-@import "components/empty_state";
-@import "components/line_item_date";
-@import "components/line_item";
-@import "components/quote_total";
+@use "components/btn";
+@use "components/error_message";
+@use "components/form";
+@use "components/visually_hidden";
+@use "components/quote";
+@use "components/turbo_progress_bar";
+@use "components/navbar";
+@use "components/flash";
+@use "components/empty_state";
+@use "components/line_item_date";
+@use "components/line_item";
+@use "components/quote_total";
 
 // Layouts
-@import "layouts/container";
-@import "layouts/header";
+@use "layouts/container";
+@use "layouts/header";
 
 // Utilities
-@import "utilities/margin";
+@use "utilities/margin";
